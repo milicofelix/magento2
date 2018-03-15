@@ -71,7 +71,8 @@
         "ext-pdo_mysql": "*",
         "ext-soap": "*",
         "sjparkinson/static-review": "~4.1",
-        "ramsey/uuid": "~3.7.3"
+        "ramsey/uuid": "~3.7.3",
+        "rafaelstz/traducao_magento2_pt_br": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "~6.2.0",
