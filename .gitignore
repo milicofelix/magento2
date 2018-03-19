@@ -12,7 +12,7 @@ atlassian*
 /sitemap.xml
 /pub/sitemap
 /pub/sitemap.xml
-/.idea
+.idea/
 /.gitattributes
 /app/config_sandbox
 /app/etc/config.php
@@ -63,7 +63,6 @@ atlassian*
 
 /var/*
 !/var/.htaccess
-/vendor/*
 !/vendor/.htaccess
 /generated/*
 !/generated/.htaccess
