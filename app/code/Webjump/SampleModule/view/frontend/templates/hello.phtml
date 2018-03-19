@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * @var \Webjump\SampleModule\Block\Hello $block
+ */
+
+foreach ($block->getItems() as $item):
+    echo '<p>'. $item->getName(). ' : '. $item->getDescription() . '</p>';
+endforeach;
+
+?>

@@ -8,7 +8,7 @@
         "AFL-3.0"
     ],
     "require": {
-        "php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
+        "php": "7.0.2|7.0.4|~7.0.6|~7.1",
         "zendframework/zend-stdlib": "^2.7.7",
         "zendframework/zend-code": "~3.1.0",
         "zendframework/zend-server": "^2.6.1",
@@ -72,7 +72,11 @@
         "ext-soap": "*",
         "sjparkinson/static-review": "~4.1",
         "ramsey/uuid": "~3.7.3",
-        "rafaelstz/traducao_magento2_pt_br": "dev-master"
+        "rafaelstz/traducao_magento2_pt_br": "dev-master",
+        "magento/module-catalog-sample-data": "100.*",
+        "magento/module-configurable-sample-data": "100.*",
+        "magento/module-cms-sample-data": "100.*",
+        "magento/module-bundle-sample-data": "100.*"
     },
     "require-dev": {
         "phpunit/phpunit": "~6.2.0",
@@ -170,7 +174,6 @@
         "magento/module-sales-inventory": "100.2.0",
         "magento/module-sales-rule": "101.0.1",
         "magento/module-sales-sequence": "100.2.0",
-        "magento/module-sample-data": "100.2.1",
         "magento/module-search": "100.2.2",
         "magento/module-security": "100.2.0",
         "magento/module-send-friend": "100.2.0",
@@ -262,6 +265,12 @@
             "Magento\\Tools\\Sanity\\": "dev/build/publication/sanity/Magento/Tools/Sanity/",
             "Magento\\TestFramework\\Inspection\\": "dev/tests/static/framework/Magento/TestFramework/Inspection/",
             "Magento\\TestFramework\\Utility\\": "dev/tests/static/framework/Magento/TestFramework/Utility/"
+        }
+    },
+    "repositories": {
+        "0": {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
         }
     },
     "minimum-stability": "stable"
