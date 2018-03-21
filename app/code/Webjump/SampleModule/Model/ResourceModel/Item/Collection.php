@@ -18,7 +18,7 @@ class Collection extends AbstractCollection
 
     protected $_idFieldName = 'id';
 
-    public function __construct()
+    protected function _construct()
     {
         $this->_init(
             Item::class, ItemResource::class
